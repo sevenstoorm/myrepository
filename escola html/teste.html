@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Estrutura HTML Semântica</title>
+    <style>
+        /* Apenas para dar um estilo simples */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, main, section, article, aside, footer {
+            padding: 15px;
+            border: 1px solid #ccc;
+            margin: 5px;
+         
+        }
+        header { background-color: #f4f4f4; }
+        nav { background-color: #ddd; }
+        main { background-color: #fff3e0; }
+        section { background-color: #e0f7fa; }
+        article { background-color: #fce4ec; }
+        aside { background-color: #e8f5e9; }
+        footer { background-color: #cfd8dc; }
+
+    </style>
+</head>
+<body>
+
+    <!-- HEADER: Cabeçalho principal do site -->
+    <header>
+        <h1>Meu Site de Notícias</h1>
+        <p>O melhor conteúdo sobre tecnologia e ciência</p>
+    </header>
+
+    <!-- NAV: Área de navegação -->
+    <nav>
+        <a href="#Inicio">Início</a> |
+        <a href="#Tecnologia">Tecnologia</a> |
+        <a href="#Ciência">Ciência</a> |
+        <a href="#Footer">Footer</a>
+
+    </nav>
+
+    <!-- MAIN: Conteúdo principal da página -->
+    <main>
+        <section id="Inicio">
+        <h2>Notícias em destaque</h2>
+        </section>
+        <!-- SECTION: Agrupa conteúdo relacionado -->
+        <section id="tecnologia">
+            <h3>Tecnologia</h3>
+
+            <!-- ARTICLE: Conteúdo independente -->
+            <article>
+                <h4>Nova inteligência artificial bate recordes</h4>
+                <p>Pesquisadores desenvolveram uma IA capaz de aprender mais rápido que qualquer outra...</p>
+            </article>
+
+            <article>
+                <h4>Robôs domésticos ganham popularidade</h4>
+                <p>Mais de 40% das casas já contam com algum tipo de assistente robótico...</p>
+            </article>
+        </section>
+
+        <section id="Ciência">
+            <h3>Ciência</h3>
+            <article>
+                <h4>Descoberta de novo planeta habitável</h4>
+                <p>A NASA anunciou a descoberta de um planeta com condições similares às da Terra...</p>
+            </article>
+        </section>
+    </main>
+
+    <!-- ASIDE: Conteúdo complementar (barra lateral) -->
+    <aside>
+        <h3>Links recomendados</h3>
+        <ul>
+            <li><a href="#">Como aprender programação</a></li>
+            <li><a href="#">Últimos avanços na medicina</a></li>
+        </ul>
+    </aside>
+
+    <!-- FOOTER: Rodapé da página -->
+     <section id="Footer">
+    <footer>
+        <p>© 2025 - Meu Site de Notícias | Desenvolvido por Você</p>
+    </footer>
+     </section>
+</body>
+</html> 

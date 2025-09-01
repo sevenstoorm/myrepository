@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Jojo Stands</title>
+  
+  <style>
+    body {           
+      background-image: url(/htmlv2/imagens/898794.jpg);   /* Bkg */
+      background-repeat: repeat;
+      background-size: cover;
+    }
+
+    body, html {
+      height: 100%;                  /* Pra não ficar com borda branca */
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      text-align: center;
+      background-color: bisque;
+      margin: 10px auto;
+      padding: 10px;
+      color:  black;
+      width: 900px;
+      font-family: cambria;
+    }
+
+    .container {
+      display: flex;           /* lado a lado */
+      justify-content: center; /* centraliza o conjunto */
+      gap: 20px;               /* espaço entre aside e main */
+      margin-top: 20px;
+    }
+
+    .pagina-branca {
+      margin-left: 273px;
+      flex: 2;                 /* ocupa mais espaço */
+      padding: 40px; /* espaço interno */
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombreamendo, o border abaixo define o blur da caixa */
+      border: 1px solid #ccc;
+      background-color: white;  
+      min-height: 400px; /*Altura da caixa */
+      background-repeat: repeat; /* é pro bkg não sumir se tiver muito conteúdo */
+      font-family: Cambria;
+      line-height: 1.6;
+      opacity: 0.8;
+    }
+
+    aside {  /*Barra lateral*/
+      flex: 0.5;                 /* ocupa menos espaço */
+      padding: 15px;
+      background-color: cornsilk;
+      border: 1px solid #ccc;
+      margin-right: 10px;
+      opacity: 0.8;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    p {
+     text-align: left;
+    }
+
+    a{
+      color: purple;
+      transition: 0.5s;
+    }
+
+    a:hover{
+      color: red;
+    }
+
+    h2{
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+
+
+   <header>
+    <h1>Stands de Jojo</h1>
+   </header>
+  <div class="container">
+    <div class="pagina-branca">
+        
+      <p>  Em JoJo’s Bizarre Adventure, os Stands são manifestações físicas da energia vital de uma pessoa, funcionando como extensões do seu espírito e da sua vontade. Eles surgem a partir da Parte 3, substituindo o sistema de Hamon das partes anteriores, e rapidamente se tornam o principal recurso narrativo e de batalha da série. Um Stand geralmente é invisível para pessoas comuns, sendo perceptível apenas por outros usuários, e assume formas variadas que podem ir desde figuras humanoides até objetos, animais, sombras ou fenômenos abstratos. Cada Stand possui habilidades únicas que refletem, de alguma maneira, a personalidade, os desejos ou até mesmo o destino do seu usuário. Embora muitos tenham poderes relacionados à força e velocidade, a riqueza do conceito está na diversidade de habilidades, que vão desde manipulação de tempo, espaço e realidade até poderes mais peculiares como controlar sons, sonhos ou até a sorte. O vínculo entre Stand e usuário é profundo: quando o Stand sofre danos, seu portador também é ferido na mesma intensidade, e em casos extremos, a destruição completa do Stand pode resultar na morte do usuário. Essa conexão torna cada confronto não apenas uma luta de habilidades, mas também um embate psicológico e estratégico, já que compreender as regras e limitações do Stand inimigo pode ser tão importante quanto ter força bruta. Além disso, os Stands possuem uma dimensão simbólica e estilística muito forte, refletindo a criatividade de Hirohiko Araki, tanto no design visual, que mistura referências a moda, música e arte, quanto na escolha dos nomes, frequentemente inspirados em bandas, músicos e cartas de tarô ou deuses egípcios nas primeiras aparições. Com o tempo, os Stands passaram a ser usados não apenas em batalhas, mas como ferramentas narrativas que exploram temas mais profundos, revelando medos, traumas e a essência dos personagens que os carregam. Isso faz deles um elemento central que vai além da função de “arma”, transformando-se em uma linguagem própria do universo de JoJo, onde cada Stand é, em essência, uma manifestação da individualidade e do potencial humano. </p> <!--Escrever um pouco sobre os stands, dividindo em parte 3, 4 e 5-->
+    </div>
+
+    <aside> 
+      <h2>Sumário</h2> <!--Linkar as Partes com as partes de jojo e fazer um anchor com outras páginas-->
+      <ul>
+        <li><a href="pt3.html" target="_self" title="Click to see Part 3 stands">Parte 3</a></li>
+        <li><a href="pt4.html" target="_self" title="Click to see Part 4 stands">Parte 4</a></li>
+        <li><a href="pt5.html" target="_self" title="Click to see Part 5 stands">Parte 5</a></li>
+      </ul>
+    </aside>
+  </div>
+</body>
+</html>
